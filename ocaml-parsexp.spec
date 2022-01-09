@@ -45,7 +45,7 @@ używających biblioteki parsexp.
 
 %package devel
 Summary:	S-expression parsing library - development part
-Summary(pl.UTF-8):	Biblioteka analizująca S-wyrażenia - cześć programistyczna
+Summary(pl.UTF-8):	Biblioteka analizująca S-wyrażenia - część programistyczna
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 %requires_eq	ocaml
