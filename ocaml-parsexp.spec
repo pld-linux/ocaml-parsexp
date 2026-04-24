@@ -74,7 +74,7 @@ dune install --destdir=$RPM_BUILD_ROOT
 # sources
 %{__rm} $RPM_BUILD_ROOT%{_libdir}/ocaml/parsexp/*.ml
 # packaged as %doc
-%{__rm} -r $RPM_BUILD_ROOT%{_prefix}/doc/parsexp
+%{__rm} -r $RPM_BUILD_ROOT%{_docdir}/parsexp
 
 %clean
 rm -rf $RPM_BUILD_ROOT
