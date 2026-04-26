@@ -10,20 +10,18 @@
 Summary:	S-expression parsing library
 Summary(pl.UTF-8):	Biblioteka analizująca S-wyrażenia
 Name:		ocaml-parsexp
-Version:	0.14.1
+Version:	0.16.0
 Release:	1
 License:	MIT
 Group:		Libraries
 #Source0Download: https://github.com/janestreet/parsexp/tags
 Source0:	https://github.com/janestreet/parsexp/archive/v%{version}/parsexp-%{version}.tar.gz
-# Source0-md5:	e6659d53f4d94de8979e05d17222b753
+# Source0-md5:	de05e2911a002e747502e62b37130232
 URL:		https://github.com/janestreet/parsexp
 BuildRequires:	ocaml >= 1:4.04.2
 BuildRequires:	ocaml-base-devel >= 0.14
-BuildRequires:	ocaml-base-devel < 0.15
 BuildRequires:	ocaml-dune >= 2.0.0
 BuildRequires:	ocaml-sexplib0-devel >= 0.14
-BuildRequires:	ocaml-sexplib0-devel < 0.15
 %requires_eq	ocaml-runtime
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
